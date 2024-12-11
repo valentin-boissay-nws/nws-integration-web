@@ -1,0 +1,65 @@
+/*Background Header*/
+.header{
+    background: #F5F7FA;
+}
+
+/*Mise en Forme du Header*/
+section {
+    display: inline-flex;
+width: Fixed (1,441px)px;
+height: Hug (84px)px;
+padding: 22px 105px 22px 105px;
+gap: 145px;
+opacity: 0px;
+}
+
+/* Mise en forme de la nav */
+ul {
+    display: flex; 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 50px;
+}
+
+li {
+    padding: 0 15px;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+}
+
+/* ------------------------ */
+
+.login-header{
+    width: Hug (182px)px;
+    height: Hug (40px)px;
+    gap: 14px;
+    opacity: 0px;
+}
+
+/* ------------------------ */
+
+.login{
+    width: Hug (77px)px;
+    height: Hug (40px)px;
+    padding: 10px 20px 10px 20px;
+    gap: 10px;
+    opacity:0px;
+    color:rgba(76, 175, 79, 1) ;
+}
+
+/* ------------------------ */
+
+.sign-up{
+    width: Hug 91px;
+    height: Hug 40px;
+    padding: 10px 20px 10px 20px;
+    gap: 10px;
+    border-radius: 6px 6px 6px 6px;
+    opacity: 0px;    
+    background: rgba(76, 175, 79, 1);
+    color: #F5F7FA;
+}
