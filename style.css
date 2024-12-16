@@ -154,15 +154,16 @@ li {
     border: none; 
 }
 
-/* ---------------------- */
+/* Community */
 .community{
     width: Hug (1,440px)px;
     height: Hug (416px)px;
     gap: 16px;
     opacity: 0px;
+    margin-bottom: 8px;
 }
 
-/* ---------------------- */
+/* Manage your entire community in a single system */
 .section-title{
     color: rgba(77, 77, 77, 1);
     font-family: Inter, sans-serif;
@@ -172,6 +173,7 @@ li {
     line-height: 44px;
 }
 
+/* Who is Nextcent suitable for? */
 .Description{
     color: rgba(113, 113, 113, 1);
     font-family: Inter, sans-serif;
@@ -181,6 +183,7 @@ li {
     line-height: 24px;
     margin-top: -20px;
 }
+
 
 
 
