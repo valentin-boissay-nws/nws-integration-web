@@ -116,6 +116,7 @@ li {
     line-height: 76px;
 }
 
+/* Le From 8 years en vert dans le titre */
 .from{
     font-family: Inter, sans-serif;
     color: rgba(76, 175, 79, 1);
@@ -163,7 +164,7 @@ li {
     margin-bottom: 8px;
 }
 
-/* Manage your entire community in a single system */
+/* Titre de la section community */
 .section-title{
     color: rgba(77, 77, 77, 1);
     font-family: Inter, sans-serif;
@@ -173,7 +174,7 @@ li {
     line-height: 44px;
 }
 
-/* Who is Nextcent suitable for? */
+/* Le petit texte en dessous du titre de community */
 .Description{
     color: rgba(113, 113, 113, 1);
     font-family: Inter, sans-serif;
@@ -182,6 +183,108 @@ li {
     font-size: 16px;
     line-height: 24px;
     margin-top: -20px;
+}
+
+/* La disposition des Cartes */
+.cards-container{
+    display: flex;
+    justify-content: space-between;
+    width: 1440px;
+    height: 280px;
+    padding-right: 144px;
+    padding-left: 144px;
+}
+
+/* La Première carte */
+.membership-organisations{
+    display: flex;
+    flex-direction: column;
+    width: 299px;
+    height: 260px;
+    border-radius: 8px;
+    padding: left 32px; 
+    padding: right 32px; 
+    padding: top 24px; 
+    padding: bottom 24px; 
+    align-items: center;
+    text-align: center;
+    gap: 8px;
+    box-shadow: 0px 2px 4px 0px rgba(171, 190, 209, 0.2);
+}
+
+/* Le titre de la Première carte */
+.titre-membership-organisations{
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    text-align: center;
+    color: rgba(77, 77, 77, 1);
+}
+
+/* Le petit texte des Cartes */
+.frame3{
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: rgba(113, 113, 113, 1);
+}
+
+
+/* La Seconde carte */
+.national-associations{
+    display: flex;
+    flex-direction: column;
+    width: 299px;
+    height: 280px;
+    border-radius: 8px;
+    padding: left 32px; 
+    padding: right 32px; 
+    padding: top 24px; 
+    padding: bottom 24px; 
+    align-items: center;
+    text-align: center;
+    gap: 8px;
+    box-shadow: 0px 2px 4px 0px rgba(171, 190, 209, 0.2);
+}
+
+/* Le titre de la Seconde carte */
+.titre-national-associations{
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    text-align: center;
+    color: rgba(77, 77, 77, 1);
+}
+
+/* La Troisième carte */
+.corporate-organisations{
+    display: flex;
+    flex-direction: column;
+    width: 299px;
+    height: 260px;
+    border-radius: 8px;
+    padding: left 32px; 
+    padding: right 32px; 
+    padding: top 24px; 
+    padding: bottom 24px; 
+    align-items: center;
+    text-align: center;
+    gap: 8px;
+    box-shadow: 0px 2px 4px 0px rgba(171, 190, 209, 0.2);
+}
+
+/* Le titre de la Seconde carte */
+.titre-corporate-organisations{
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    text-align: center;
+    color: rgba(77, 77, 77, 1);
 }
 
 
