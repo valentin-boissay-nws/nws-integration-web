@@ -287,6 +287,193 @@ li {
     color: rgba(77, 77, 77, 1);
 }
 
+/* -------------------- */
+.Corps{
+    width: Fill (1,441px)px;
+    height: Hug (914.4px)px;
+    gap: 48px;
+    opacity: 0px;
+}
+
+/* Conteneur unlock : image + texte + button*/
+.unlock {
+    margin-top: 80px;
+    display: flex; 
+    justify-content: space-between; 
+    padding: 0 144px; 
+    box-sizing: border-box; 
+}
+
+/* pour que l'image soit plus à droite du texte*/
+.unlock img {
+    margin-left: 100px; 
+}
+
+/* texte et bouton */
+.frame-6 {
+    display: flex; 
+    flex-direction: column; 
+    align-items: flex-start;
+    width: Fixed (601px)px;
+    height: Hug (184px)px;
+    gap: 16px;
+    opacity: 0px;
+    margin-right: 200px;
+}
+
+/* Titre */
+.titre-unlock {
+    font-family: Inter, sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    color: #4D4D4D; 
+    margin: 0; /* Supprime les marges par défaut */
+}
+
+/* Texte */
+.texte-unlock {
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #717171; 
+    margin: 0; /* Supprime les marges par défaut */
+}
+
+/* Bouton */
+.learn-more {
+    background: rgba(76, 175, 79, 1);
+    width: Hug (151px)px;
+    height: Hug (52px)px;
+    padding: 14px 32px 14px 32px;
+    gap: 10px;
+    border-radius: 4px 4px 4px 4px;
+    opacity: 0px;    
+    color: rgba(255, 255, 255, 1);
+    border-style : none;
+}
+
+/* Conteneur Calendar : image + texte + button*/
+.Calendar {
+    margin-top: 80px;
+    display: flex; 
+    justify-content: space-between; 
+    padding: 0 144px; 
+    box-sizing: border-box; 
+}
+
+/* texte et bouton */
+.frame-5 {
+    display: flex; 
+    flex-direction: column; 
+    align-items: flex-start; 
+    gap: 32px; 
+    max-width: 661px; 
+    margin-right: 300px;
+}
+
+/* Titre */
+.titre-calendar {
+    font-family: Inter, sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    color: #4D4D4D;
+    margin: 0; /* Supprime les marges par défaut */
+}
+
+/* Texte */
+.texte-calendar{
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #717171;
+    margin: 0; /* Supprime les marges par défaut */
+}
+
+.Calendar img {
+    position: relative;
+    left: -300px; /* Ajustez la valeur pour déplacer l'image vers la gauche */
+}
+
+
+.Footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background: #FFFFFF; 
+}
+
+.frame-16 {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    width: 1200px; /* Largeur fixe */
+    height: 364px; /* Hauteur fixe */
+    padding: 64px 0px; 
+    gap: 32px;
+    border-radius: 8px;
+    background: #F5F7FA;
+    opacity: 1; /* Rendre visible */
+}
+
+.titre-frame-16 {
+    font-family: Inter, sans-serif;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 76px;
+    text-align: center;
+    color: #263238;
+    width: 100%; /* Pour centrer correctement */
+}
+
+.button-footer {
+    width: 154px;
+    height: 52px;
+    padding: 14px 32px;
+    gap: 8px;
+    border-radius: 4px;
+    background: #4CAF50; /* Couleur corrigée */
+    color: #FFFFFF;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+.Footer-big {
+    display: flex;
+    flex-direction: row; /* Les textes restent côte à côte */
+    justify-content: center; /* Centre les éléments horizontalement */
+    align-items: center; /* Centre les éléments verticalement */
+    padding: 0 165px; /* Espacement horizontal global */
+    width: 1440px; /* Largeur fixe */
+    height: 148px; /* Hauteur fixe */
+    gap: 8px; /* Espacement entre les deux textes */
+    background-color: #263238; /* Couleur de fond */
+}
+
+.copyright, .rights {
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #F5F7FA; /* Couleur des textes */
+}
+
+.text-footer {
+    width: Fixed (562px)px;
+    height: Hug (20px)px;
+    gap: 8px;
+    opacity: 1;
+}
+
+
+
+
+
 
 
 
