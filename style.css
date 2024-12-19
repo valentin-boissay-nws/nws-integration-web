@@ -1,3 +1,5 @@
+
+
 /*Background Header*/
 .header{
     background: #F5F7FA;
@@ -185,109 +187,53 @@ li {
     margin-top: -20px;
 }
 
-/* La disposition des Cartes */
-.cards-container{
+/* La disposition des cartes  */
+.cards-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; /* Aligne les cartes avec espace uniforme */
+    gap: 32px; /* Écart constant entre les cartes */
     width: 1440px;
-    height: 280px;
-    padding-right: 144px;
-    padding-left: 144px;
+    padding: 0 144px; /* Espacement horizontal */
 }
 
-/* La Première carte */
-.membership-organisations{
+/* l'organisation des cartes */
+.membership-organisations,
+.national-associations,
+.corporate-organisations {
     display: flex;
     flex-direction: column;
     width: 299px;
-    height: 260px;
+    height: 280px; /* Hauteur uniforme */
     border-radius: 8px;
-    padding: left 32px; 
-    padding: right 32px; 
-    padding: top 24px; 
-    padding: bottom 24px; 
+    padding: 24px 32px; /* Padding uniforme */
     align-items: center;
     text-align: center;
-    gap: 8px;
-    box-shadow: 0px 2px 4px 0px rgba(171, 190, 209, 0.2);
+    gap: 8px; /* Espacement interne entre les éléments */
+    box-shadow: 0px 2px 4px rgba(171, 190, 209, 0.2);
 }
 
-/* Le titre de la Première carte */
-.titre-membership-organisations{
+/* l'apparence des cartes */
+.titre-membership-organisations,
+.titre-national-associations,
+.titre-corporate-organisations {
     font-family: Inter, sans-serif;
     font-weight: 700;
     font-size: 28px;
     line-height: 36px;
-    text-align: center;
     color: rgba(77, 77, 77, 1);
 }
 
-/* Le petit texte des Cartes */
-.frame3{
+/* Textes des cartes */
+.frame3 {
     font-family: Inter, sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
-    text-align: center;
     color: rgba(113, 113, 113, 1);
 }
 
 
-/* La Seconde carte */
-.national-associations{
-    display: flex;
-    flex-direction: column;
-    width: 299px;
-    height: 280px;
-    border-radius: 8px;
-    padding: left 32px; 
-    padding: right 32px; 
-    padding: top 24px; 
-    padding: bottom 24px; 
-    align-items: center;
-    text-align: center;
-    gap: 8px;
-    box-shadow: 0px 2px 4px 0px rgba(171, 190, 209, 0.2);
-}
-
-/* Le titre de la Seconde carte */
-.titre-national-associations{
-    font-family: Inter, sans-serif;
-    font-weight: 700;
-    font-size: 28px;
-    line-height: 36px;
-    text-align: center;
-    color: rgba(77, 77, 77, 1);
-}
-
-/* La Troisième carte */
-.corporate-organisations{
-    display: flex;
-    flex-direction: column;
-    width: 299px;
-    height: 260px;
-    border-radius: 8px;
-    padding: left 32px; 
-    padding: right 32px; 
-    padding: top 24px; 
-    padding: bottom 24px; 
-    align-items: center;
-    text-align: center;
-    gap: 8px;
-    box-shadow: 0px 2px 4px 0px rgba(171, 190, 209, 0.2);
-}
-
-/* Le titre de la Seconde carte */
-.titre-corporate-organisations{
-    font-family: Inter, sans-serif;
-    font-weight: 700;
-    font-size: 28px;
-    line-height: 36px;
-    text-align: center;
-    color: rgba(77, 77, 77, 1);
-}
-
-/* -------------------- */
+/* Le bloc avec les 2 buttons, les 2 textes, et les 2 images */
 .Corps{
     width: Fill (1,441px)px;
     height: Hug (914.4px)px;
@@ -328,7 +274,6 @@ li {
     font-weight: 600;
     line-height: 44px;
     color: #4D4D4D; 
-    margin: 0; /* Supprime les marges par défaut */
 }
 
 /* Texte */
@@ -348,8 +293,7 @@ li {
     height: Hug (52px)px;
     padding: 14px 32px 14px 32px;
     gap: 10px;
-    border-radius: 4px 4px 4px 4px;
-    opacity: 0px;    
+    border-radius: 4px 4px 4px 4px; 
     color: rgba(255, 255, 255, 1);
     border-style : none;
 }
@@ -373,32 +317,31 @@ li {
     margin-right: 300px;
 }
 
-/* Titre */
+/* Titre Calendar */
 .titre-calendar {
     font-family: Inter, sans-serif;
     font-size: 36px;
     font-weight: 600;
     line-height: 44px;
-    color: #4D4D4D;
-    margin: 0; /* Supprime les marges par défaut */
+    color: #4D4D4D; 
 }
 
-/* Texte */
+/* Texte Calendar */
 .texte-calendar{
     font-family: Inter, sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
     color: #717171;
-    margin: 0; /* Supprime les marges par défaut */
 }
 
+/* L'image du Calendar */
 .Calendar img {
     position: relative;
-    left: -300px; /* Ajustez la valeur pour déplacer l'image vers la gauche */
+    left: -300px; 
 }
 
-
+/* Le Footer */
 .Footer {
     display: flex;
     justify-content: center;
@@ -407,19 +350,21 @@ li {
     background: #FFFFFF; 
 }
 
+/* Le bloc juste au dessus du footer avec le titre + button */
 .frame-16 {
     display: flex; 
     flex-direction: column; 
     align-items: center;
-    width: 1200px; /* Largeur fixe */
-    height: 364px; /* Hauteur fixe */
+    width: 1200px; 
+    height: 364px; 
     padding: 64px 0px; 
     gap: 32px;
     border-radius: 8px;
     background: #F5F7FA;
-    opacity: 1; /* Rendre visible */
+    opacity: 1; 
 }
 
+/* le titre écrit en gros*/
 .titre-frame-16 {
     font-family: Inter, sans-serif;
     font-weight: 600;
@@ -430,39 +375,43 @@ li {
     width: 100%; /* Pour centrer correctement */
 }
 
+/* le button sous le gros titre */
 .button-footer {
     width: 154px;
     height: 52px;
     padding: 14px 32px;
     gap: 8px;
     border-radius: 4px;
-    background: #4CAF50; /* Couleur corrigée */
+    background: #4CAF50; 
     color: #FFFFFF;
     text-align: center;
     border: none;
     cursor: pointer;
 }
 
+/* le footer avec la bande noir */
 .Footer-big {
     display: flex;
-    flex-direction: row; /* Les textes restent côte à côte */
-    justify-content: center; /* Centre les éléments horizontalement */
-    align-items: center; /* Centre les éléments verticalement */
-    padding: 0 165px; /* Espacement horizontal global */
-    width: 1440px; /* Largeur fixe */
-    height: 148px; /* Hauteur fixe */
-    gap: 8px; /* Espacement entre les deux textes */
-    background-color: #263238; /* Couleur de fond */
+    flex-direction: row; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 0 165px; 
+    width: 1440px; 
+    height: 148px; 
+    gap: 8px; 
+    background-color: #263238; 
 }
 
+/* les 2 textes dans le footer */
 .copyright, .rights {
     font-family: Inter, sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
-    color: #F5F7FA; /* Couleur des textes */
+    color: #F5F7FA; 
 }
 
+/* la section en plus du texte dans le footer pour bien placer les textes */
 .text-footer {
     width: Fixed (562px)px;
     height: Hug (20px)px;
