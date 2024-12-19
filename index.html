@@ -119,5 +119,20 @@
             </section>
         </section>
     </div>
+
+    <script>
+        // Sélecteur du bouton pour le mode nuit
+        const toggleNightMode = document.createElement('button');
+        toggleNightMode.textContent = 'Mode Nuit';
+        toggleNightMode.classList.add('night-mode-toggle');
+        document.body.appendChild(toggleNightMode);
+    
+        // Fonction de bascule du mode nuit
+        toggleNightMode.addEventListener('click', () => {
+            document.body.classList.toggle('night-mode');
+            toggleNightMode.textContent = 
+                document.body.classList.contains('night-mode') ? 'Mode Jour' : 'Mode Nuit';
+        });
+    </script>
 </body>
 </html>
